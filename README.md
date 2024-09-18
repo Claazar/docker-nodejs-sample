@@ -1,4 +1,4 @@
-# ToDo-Applikation
+# <u>ToDo-Applikation</u>
 
 ## Projektbeschreibung
 
@@ -30,4 +30,31 @@ git clone https://github.com/dein-nutzername/docker-nodejs-sample
 ### 2. Applikation ausführen
 
 Folgen sie dieser [Anleitung](https://docs.docker.com/guides/language/nodejs/containerize/) ab dem Schritt "Initalize Docker assets"
-um die Applikation zu starten. Stellen sie sicher das beim starten Sie die Docker Desktop App geöffnet haben. Wenn sie online ist wird sie unter dem Link [http://localhost:3000](http://localhost:3000) erreichbar sein.
+um die Applikation zu starten. Am besten nutzten sie dafür die Eingabeaufforderung von Windows und stellen sie sicher das beim starten Sie die Docker Desktop App geöffnet haben. Wenn sie online ist wird sie unter dem Link [http://localhost:3000](http://localhost:3000) erreichbar sein.
+
+---
+
+## FAQ
+
+#### Ich krieg eine Fehlermeldung beim "docker init" Befehl.
+Meistens ist hier das Problem das Docker nicht geöffnet ist. Um diesen Fehler zu beheben, öffnen sie Docker auf Ihrem Desktop.
+
+<br>
+
+#### Ich habe eine Fehlermeldung währen des "docker compose up --build" Befehl.
+Wenn dies auftritt und Sie es in Git ausgeführt haben, sollten Sie es in der Eingabeaufforderung versuchen. Vergessen Sie nicht in das
+richtige Ordnerverzeichnis zu wechseln. Falls dies nicht geht, führen sie den Befehl direkt im Terminal von Visual Studio
+Code aus. Vergessen Sie auch da nicht, den richtigen Ordner zu öffnen.[Visual Studio Code Download](https://code.visualstudio.com/download)
+
+<br>
+
+#### Sehen sie meine Daten?
+Nein, alles was Sie bei der To-Do Liste eintragen ist auf Ihrem Computer gespeichert daher Sie die Website selber Hosten.
+
+<br>
+
+---
+
+<br>
+
+## Viel Spass beim Programmieren :D
